@@ -18,4 +18,4 @@ with open(readme, 'w') as f:
     print('', file=f)
 
     for x in files:
-        print('[{}]({})'.format( ' | '.join(x.split('/')[1:-1]), x), file=f)
+        print('- [{}]({})'.format( ' | '.join(x.split('/')[1:-1]), x), file=f)
