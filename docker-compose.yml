@@ -1,0 +1,7 @@
+version: '3'
+services:
+    ctf-tools:
+        image: zardus/ctf-tools
+        build: .
+        volumes:
+            - .:/home/ctf/workspace

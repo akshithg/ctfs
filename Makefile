@@ -3,3 +3,6 @@ echo:
 
 readme:
 	./writeup.py
+
+docker:
+	docker-compose run ctf-tools
