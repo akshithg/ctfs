@@ -1,4 +1,4 @@
-# Bandit
+# Overthewire | Bandit
 
 ## level 0
 
