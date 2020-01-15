@@ -1,8 +1,6 @@
-echo:
-	@echo "targets: readme, docker"
+all:
+	@echo "targets: readme"
 
 readme:
 	./writeup.py
 
-docker:
-	docker-compose run ctf-tools

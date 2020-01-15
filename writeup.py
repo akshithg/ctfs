@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+genarates the readme.md
+"""
 
 import os
 
@@ -14,8 +17,9 @@ for r, d, f in os.walk(path):
 
 
 with open(readme, 'w') as f:
-    print('# CTF writeups', file=f)
-    print('', file=f)
+    print('# CTF writeups\n', file=f)
+    print('DO NOT EDIT THIS MANUALLY, run: `make readme`\n', file=f)
+
 
     for x in files:
         print('- [{}]({})'.format( ' | '.join(x.split('/')[1:-1]), x), file=f)
